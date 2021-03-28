@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CA2">
-        <activity android:name=".nba"></activity>
+        <activity android:name=".BurRes"></activity>
+        <activity android:name=".nba" />
         <activity android:name=".cricket" />
         <activity android:name=".football" />
         <activity android:name=".Recipe" />
