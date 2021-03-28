@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frg2Color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/i1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  1.    Heat a medium skillet over medium heat. Warm your tortilla for about 30 seconds, flipping halfway. Flip once more, then sprinkle one-half of the tortilla with about half of the cheese. Cover the cheese evenly with the remaining fillings: beans, bell pepper, onion and jalapeño (if using)."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  2.  Sprinkle the remaining cheese over the fillings, and fold over the empty side of the tortilla to enclose the fillings. Quickly brush the top of the quesadilla with a light coating of oil, then carefully flip it with a spatula."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  3.  Let the quesadilla cook until golden and crispy on the bottom, about 1 to 2 minutes, reducing the heat if necessary to prevent burning the tortilla. Brush the top with a light coating of oil, then flip it and cook until the second side is golden and crispy."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  4.  Immediately remove the skillet from the heat and transfer the quesadilla to a cutting board. Let it cool for a minute to give the cheese time to set, then use a chef’s knife to slice it into 3 pieces. Serve promptly, with any sauces or garnishes that you’d like."
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

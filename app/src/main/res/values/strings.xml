@@ -2,4 +2,25 @@
     <string name="app_name">CA2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dal_ing">
+        •200 grams Urad Dal/black lentil<p />
+        •50 grams Kidney Beans/ Rajma<p />
+        •2 Bay Leaves<p />
+        •2 green cardamom<p />
+        •1 teaspoon chopped ginger<p />
+        •Salt to taste<p />
+        •1 teaspoon red chilli powder<p />
+        •½ teaspoon turmeric powder<p />
+        •1 cup Milk<p />
+        •2 tablespoon Butter<p />
+        •1 teaspoon Garam Masala<p />
+        •1 teaspoon Kasoori Methi<p />
+        •o Make Takda:<p />
+        •2 tablespoon Ghee<p />
+        •¼ chopped Onion<p />
+        •1 teaspoon chopped Ginger<p />
+        •1 teaspoon Ground Coriander Powder<p />
+        •1 teaspoon Kashmiri Red Chilli Powder<p />
+        •1 Tomato Purry</string>
 </resources>

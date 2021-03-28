@@ -7,16 +7,16 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class IngredientFragment extends Fragment  {
+public class IngredientiFragment extends Fragment  {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.ingredient_frag, container, false);
+        View v = inflater.inflate(R.layout.ingredianti_frag, container, false);
         return v;
     }
 
-    public static IngredientFragment newInstance(String text) {
+    public static IngredientiFragment newInstance(String text) {
 
-        IngredientFragment f = new IngredientFragment();
+        IngredientiFragment f = new IngredientiFragment();
         Bundle b = new Bundle();
         b.putString("msg", text);
 

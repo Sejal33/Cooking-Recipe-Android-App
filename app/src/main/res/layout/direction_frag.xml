@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cLayout1"
@@ -7,17 +7,174 @@
     android:layout_height="match_parent"
     android:background="@color/frg2Color">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="356dp"
-        android:text="sample text 2"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/i1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  1.    Take 200 grams of Urad Dal/black lentil and 50 grams of Kidney beans and wash them separately with fresh water. Wash the lentils/dal and the kidney beans/rajma until the water runs out clean."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  2.  Now, keep both the ingredients in two separate bowls. Add water to them and allow them to soak for 3-4 hours."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  3.  After both the ingredients are well soaked, take them out and drain all the water using a mesh strainer. Discard the dirty water."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  4.  Now, take a pressure cooker and add black lentil and kidney beans in the cooker. Add Bay Leaf, mace, Cardamom, salt, red chilli and turmeric with 4 cups of water. Pressure cook it for 5-6 whistles, turn off the heat and allow it to cool naturally."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  5.  Now, proceed with making the Takda for the Dal Makhani."
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/i6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="FOR TADKA:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/i7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  1.  Take a pan and add 2 tablespoon of ghee in it. When the ghee starts to smoke add ¼ chopped onion in it. Stir the onion and cook it until the onion changes its color to translucent. We should keep the heat on medium so that it cooks evenly."
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/i8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2.  Now, add 1 teaspoon chopped ginger, 1 teaspoon coarsely ground coriander powder, a teaspoon kashmiri red chilli powder and salt to taste. Mix all the spices well and cook them for 2 mins."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3.  When the spices are cooked add fresh tomato puree in it. The tomato will bring flavor to the tadka."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4.  Now, let the tadka to cook. When you see that the ghee starts leaving the masala then it means that all the ingredients are cooked. "
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  5.  You can open the pressure cooker and check if the dal is cooker or not."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FOR DAL MAKHNI:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1.  When you see that the spices are cooked and the dal is too then take the dal (you can transfer it to a bowl first) and transfer it in the tadka pan."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2.  After that mix all the ingredients well and gently simmer the dal for 10 mins on low heat."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/i17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3.  After 10 mins take out the bay leaves from the dal and continue cooking. The reason we took out the bay leaves because all the flavor is mixed in the pan and we can take it out now."
+               android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/i18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4.  Till now you could smell the aromatic flavor of the delicious Dal makhani so quickly add 1 cup of milk in it for the creaminess we need. After you add the milk let the dal simmer for another 10 minutes."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/i19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  5.  After the 10 minutes your Dal Makhani is ready to be served so very quickly add the last ingredient that is butter in it and stir well until the golden goodness is mixed with our luscious Dal Makhani."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/i20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  6.  Add 1 teaspoon of garam masala and a teaspoon of Kasoori Methi. Patience, we are almost there. Now, cook the Dal Makhani for another 3-4 minutes and tada! Your savoury mouth-watering delicious Dal Makhani is ready to be served."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/i21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  7.  What I have learned through my years of experience is that the more we allow the dal to cook in the recipe, the better it tastes. Also one should always wash the dal or kidney beans till the water runs out clean. This way there will be no dirt left in the dal or kidney beans."
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/i22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•1 Tomato Purry"
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

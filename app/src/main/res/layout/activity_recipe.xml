@@ -18,8 +18,7 @@
         style="@style/Widget.MaterialComponents.TabLayout.Colored"
         android:layout_height="64dp"
         android:layout_below="@+id/burritos"
-        android:layout_marginTop="0dp"
-        app:tabMode="scrollable">
+        android:layout_marginTop="0dp">
 
     </com.google.android.material.tabs.TabLayout>
 

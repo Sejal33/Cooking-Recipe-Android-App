@@ -9,7 +9,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-public class BurRes extends AppCompatActivity {
+public class ital_res extends AppCompatActivity {
     private static final int NUM_PAGES = 2;
     //The pager widget, which handles animation and allows swiping horizontally to access previous and next wizard steps.
     public static ViewPager2 viewPager;
@@ -21,8 +21,8 @@ public class BurRes extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bur_res);
-        viewPager = findViewById(R.id.mypager2);
+        setContentView(R.layout.activity_ital_res);
+        viewPager = findViewById(R.id.mypager4);
         pagerAdapter = new MyPagerAdapter(this);
         viewPager.setAdapter(pagerAdapter);
 //inflating tab layout
@@ -42,14 +42,14 @@ public class BurRes extends AppCompatActivity {
         public Fragment createFragment(int pos) {
             switch (pos) {
                 case 0: {
-                    return IngredientFragment.newInstance("");
+                    return IngredientiFragment.newInstance("");
                 }
                 case 1: {
 
-                    return DirectionFragment.newInstance("");
+                    return DirectioniFragment.newInstance("");
                 }
                 default:
-                    return DirectionFragment.newInstance("");
+                    return DirectioniFragment.newInstance("");
             }
         }
 

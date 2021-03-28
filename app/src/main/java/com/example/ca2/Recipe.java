@@ -20,6 +20,7 @@ public class Recipe extends AppCompatActivity {
     private FragmentStateAdapter pagerAdapter;
     // Arrey of strings FOR TABS TITLES
     private String[] titles = new String[]{"Mexican", "Desi", "Italian"};
+
     // tab titles
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class Recipe extends AppCompatActivity {
         TabLayout tabLayout =( TabLayout) findViewById(R.id.tab_layout);
 //displaying tabs
         new TabLayoutMediator(tabLayout, viewPager,(tab, position) -> tab.setText(titles[position])).attach();
+
     }
 
     private class MyPagerAdapter extends FragmentStateAdapter {
@@ -77,17 +79,17 @@ public class Recipe extends AppCompatActivity {
             viewPager.setCurrentItem(viewPager.getCurrentItem() - 1);
         }
     }
-    public void Brecipe (View v){
-        startActivity(new Intent(this,BurRes.class));
-    }
-    public void Qrecipe (View v){
-        startActivity(new Intent(this,BurRes.class));
-    }
-    public void Crecipe (View v){
-        startActivity(new Intent(this,BurRes.class));
-    }
-    public void Mrecipe (View v){
-        startActivity(new Intent(this,BurRes.class));
-    }
+    public void Brecipe (View v){ startActivity(new Intent(this,kad_res.class)); }
+    public void Qrecipe (View v){startActivity(new Intent(this,kad_res.class));}
+    public void Crecipe (View v){ startActivity(new Intent(this,kad_res.class)); }
+    public void Mrecipe (View v){ startActivity(new Intent(this,kad_res.class)); }
+    public void KPrecipe (View v){ startActivity(new Intent(this,BurRes.class)); }
+    public void GNrecipe (View v){ startActivity(new Intent(this,BurRes.class)); }
+    public void DMrecipe (View v){ startActivity(new Intent(this,BurRes.class)); }
+    public void PBrecipe (View v){ startActivity(new Intent(this,BurRes.class)); }
+    public void VPrecipe (View v){ startActivity(new Intent(this,ital_res.class)); }
+    public void BZrecipe (View v){ startActivity(new Intent(this,ital_res.class)); }
+    public void VLrecipe (View v){ startActivity(new Intent(this,ital_res.class)); }
+    public void QArecipe (View v){ startActivity(new Intent(this,ital_res.class)); }
 
 }

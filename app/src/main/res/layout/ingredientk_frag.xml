@@ -6,47 +6,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/frg1Color">
-                <TextView
-                    android:layout_marginTop="17dp"
-                    android:id="@+id/i1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="  •   200 grams Urad Dal/black lentil"
-                    android:textSize="17sp"/>
+    <TextView
+        android:layout_marginTop="17dp"
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  •  1 whole-grain flour tortilla (about 8″ diameter)"
+        android:textSize="17sp"/>
     <TextView
         android:id="@+id/i2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i1"
-        android:text="  •   50 grams Kidney Beans/ Rajma"
+        android:text="  •   ½ cup freshly grated cheddar cheese"
         android:textSize="17sp"/>
     <TextView
         android:id="@+id/i3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i2"
-        android:text="  •   2 Bay Leaves"
+        android:text="  •   ¼ cup cooked black beans or pinto beans, rinsed and drained"
         android:textSize="17sp"/>
     <TextView
         android:id="@+id/i4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i3"
-        android:text="  •   2 green cardamom"
+        android:text="  •   1 tablespoon chopped red bell pepper or jarred roasted bell pepper or a few thinly sliced cherry tomatoes"
         android:textSize="17sp"/>
     <TextView
         android:id="@+id/i5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i4"
-        android:text="  •   1 teaspoon chopped ginger"
+        android:text="  •   1 tablespoon chopped red onion or green onion"
         android:textSize="17sp"/>
     <TextView
         android:id="@+id/i6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i5"
-        android:text="  •   Salt to taste"
+        android:text=" 1 tablespoon chopped pickled jalapeño (if you like heat)"
         android:textSize="17sp"/>
     <TextView
         android:id="@+id/i7"
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i8"
-        android:text="  •   1 cup Milk"
+        android:text="  1 teaspoon avocado oil, melted butter or extra-virgin olive oil, for brushing"
         android:textSize="17sp"/>
 
     <TextView
@@ -75,52 +75,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/i9"
-        android:text="  TO MAKE TAKDA: "
+        android:text=" Any of the following, for serving: Salsa, pico de gallo, guacamole or strips of avocado, sour cream, hot sauce, chopped fresh cilantro… "
         android:textSize="18sp"
         android:textStyle="bold" />
-    <TextView
-        android:id="@+id/i11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/i10"
-        android:text="  •   2 tablespoon Ghee"
-        android:textSize="17sp"/>
-
-    <TextView
-        android:id="@+id/i12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/i11"
-        android:text="  •   ¼ chopped Onion"
-        android:textSize="17sp" />
-
-    <TextView
-        android:id="@+id/i13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/i12"
-        android:text="  •   1 teaspoon chopped Ginger"
-        android:textSize="17sp"/>
-    <TextView
-    android:id="@+id/i14"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/i13"
-    android:text="  •   1 teaspoon Ground Coriander Powder"
-        android:textSize="17sp"/>
-    <TextView
-    android:id="@+id/i15"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/i14"
-    android:text="  •   1 teaspoon Kashmiri Red Chilli Powder"
-        android:textSize="17sp"/>
-    <TextView
-        android:id="@+id/i16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/i15"
-        android:text="  •   1 Tomato Purry"
-        android:textSize="17sp"/>
 
 </RelativeLayout>

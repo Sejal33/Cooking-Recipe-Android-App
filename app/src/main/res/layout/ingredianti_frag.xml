@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frg1Color">
+    <TextView
+        android:layout_marginTop="17dp"
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  •   3 cups uncooked ziti or small tube pasta"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:text="  •   1-3/4 cups meatless spaghetti sauce, divided"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i2"
+        android:text="  •   1 cup 4% cottage cheese"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i3"
+        android:text="  •   1 large egg, lightly beaten"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i4"
+        android:text="  •   2 teaspoons dried parsley flakes"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i5"
+        android:text="  •  1/2 teaspoon dried oregano"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i6"
+        android:text="  •   1 teaspoon red chilli powder"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i7"
+        android:text="  •  1/4 teaspoon garlic powder"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/i9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i8"
+        android:text="  •  1/8 teaspoon pepper"
+        android:textSize="17sp"/>
+
+
+</RelativeLayout>
